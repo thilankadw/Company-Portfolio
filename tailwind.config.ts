@@ -16,5 +16,17 @@ const config: Config = {
     },
   },
   plugins: [],
+  extend: {
+
+    animation: {
+      shine: "shine 1s",
+    },
+    keyframes: {
+      shine: {
+        "100%": { left: "125%" },
+      },
+    },
+    
+  },
 };
 export default config;
